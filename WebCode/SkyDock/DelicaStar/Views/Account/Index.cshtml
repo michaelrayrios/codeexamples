@@ -1,0 +1,28 @@
+﻿@{
+	ViewData["Title"] = "Login";
+}
+<br />
+<h2>Logout <small> or change accounts.</small></h2>
+<div>
+	<ul>
+		<li><a class="btn btn-primary" asp-action="Change">Change Account</a></li>
+		<li><a class="btn btn-primary" asp-action="Logout">Logout</a></li>
+	</ul>
+	@if (User != null && User.IsInRole("Admins"))
+	{
+		<p>You are currently logged in as an admin.</p>
+	}
+	else if (User != null && User.IsInRole("control"))
+	{
+		<p>You are currently logged in as a controller.</p>
+	}
+	else if (User != null && User.IsInRole("member"))
+	{
+		<p>You are currently logged in as a member.</p>
+	}
+	else
+	{
+		<p>You are currently not logged in.</p>
+
+	}
+</div>

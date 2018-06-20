@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkyDock", "DelicaStar\SkyDock.csproj", "{F7A84512-B9E0-4816-AF0A-B7FEEB8539F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing", "Testing\Testing.csproj", "{2BB2F712-4144-4AE8-A570-5254FF6ECAEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7A84512-B9E0-4816-AF0A-B7FEEB8539F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A84512-B9E0-4816-AF0A-B7FEEB8539F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A84512-B9E0-4816-AF0A-B7FEEB8539F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A84512-B9E0-4816-AF0A-B7FEEB8539F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB2F712-4144-4AE8-A570-5254FF6ECAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB2F712-4144-4AE8-A570-5254FF6ECAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB2F712-4144-4AE8-A570-5254FF6ECAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB2F712-4144-4AE8-A570-5254FF6ECAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42B2497A-6C89-494B-852C-0E8FEFEA8488}
+	EndGlobalSection
+EndGlobal

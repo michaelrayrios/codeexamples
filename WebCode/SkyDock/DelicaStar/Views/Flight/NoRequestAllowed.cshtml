@@ -1,0 +1,25 @@
+﻿@{
+	ViewData["Title"] = "No Access Allowed";
+}
+<br />
+<br />
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>
+	<h1>Sorry</h1>
+	<h2>Flights can only be requested by members.</h2>
+</p>
+@if (User != null && User.IsInRole("Admins"))
+{
+	<p>You are currently logged in as an admin.</p>
+}
+else if (User != null && User.IsInRole("control"))
+{
+	<p>You are currently logged in as a controller.</p>
+}
+else
+{
+	<p>You are currently not logged in.</p>
+
+}

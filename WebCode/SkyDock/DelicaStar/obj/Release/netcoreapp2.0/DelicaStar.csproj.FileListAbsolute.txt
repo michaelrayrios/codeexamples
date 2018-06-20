@@ -1,0 +1,10 @@
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\bin\Release\netcoreapp2.0\DelicaStar.deps.json
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\bin\Release\netcoreapp2.0\DelicaStar.runtimeconfig.json
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\bin\Release\netcoreapp2.0\DelicaStar.runtimeconfig.dev.json
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\bin\Release\netcoreapp2.0\DelicaStar.dll
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\bin\Release\netcoreapp2.0\DelicaStar.pdb
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Release\netcoreapp2.0\DelicaStar.csproj.CoreCompileInputs.cache
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Release\netcoreapp2.0\DelicaStar.AssemblyInfoInputs.cache
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Release\netcoreapp2.0\DelicaStar.AssemblyInfo.cs
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Release\netcoreapp2.0\DelicaStar.dll
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Release\netcoreapp2.0\DelicaStar.pdb

@@ -1,0 +1,44 @@
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.deps.json
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.runtimeconfig.json
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.runtimeconfig.dev.json
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.dll
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.pdb
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.csprojResolveAssemblyReference.cache
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.csproj.CoreCompileInputs.cache
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.AssemblyInfoInputs.cache
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.AssemblyInfo.cs
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.dll
+c:\users\mrrte\source\repos\DelicaStar\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.pdb
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.deps.json
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.runtimeconfig.json
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.runtimeconfig.dev.json
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.dll
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.pdb
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.csprojResolveAssemblyReference.cache
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.csproj.CoreCompileInputs.cache
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.AssemblyInfoInputs.cache
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.AssemblyInfo.cs
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.dll
+C:\Users\mrrte\source\repos\DelicaStar - Copy\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.pdb
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.deps.json
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.runtimeconfig.json
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.runtimeconfig.dev.json
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.dll
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.pdb
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.csprojResolveAssemblyReference.cache
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.csproj.CoreCompileInputs.cache
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.AssemblyInfoInputs.cache
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.AssemblyInfo.cs
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.dll
+C:\Users\mrrte\source\repos\DelicaStar_Current\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.pdb
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.deps.json
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.runtimeconfig.json
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.runtimeconfig.dev.json
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.dll
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\bin\Debug\netcoreapp2.0\DelicaStar.pdb
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.csprojResolveAssemblyReference.cache
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.csproj.CoreCompileInputs.cache
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.AssemblyInfoInputs.cache
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.AssemblyInfo.cs
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.dll
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\DelicaStar.pdb
