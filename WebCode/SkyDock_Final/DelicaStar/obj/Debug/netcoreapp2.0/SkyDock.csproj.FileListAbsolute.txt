@@ -1,0 +1,44 @@
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.deps.json
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.runtimeconfig.json
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.runtimeconfig.dev.json
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.dll
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.pdb
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.csprojResolveAssemblyReference.cache
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.csproj.CoreCompileInputs.cache
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.AssemblyInfoInputs.cache
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.AssemblyInfo.cs
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.dll
+C:\Users\mrrte\source\repos\DelicaStarTwo\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.pdb
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.deps.json
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.runtimeconfig.json
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.runtimeconfig.dev.json
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.dll
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.pdb
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.csprojResolveAssemblyReference.cache
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.csproj.CoreCompileInputs.cache
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.AssemblyInfoInputs.cache
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.AssemblyInfo.cs
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.dll
+C:\Users\mrrte\source\repos\SkyDock\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.pdb
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.deps.json
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.runtimeconfig.json
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.runtimeconfig.dev.json
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.dll
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.pdb
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.csprojResolveAssemblyReference.cache
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.csproj.CoreCompileInputs.cache
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.AssemblyInfoInputs.cache
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.AssemblyInfo.cs
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.dll
+C:\Users\mrrte\source\repos\SkyDock - Copy\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.pdb
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.deps.json
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.runtimeconfig.json
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.runtimeconfig.dev.json
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.dll
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\bin\Debug\netcoreapp2.0\SkyDock.pdb
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.csprojResolveAssemblyReference.cache
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.csproj.CoreCompileInputs.cache
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.AssemblyInfoInputs.cache
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.AssemblyInfo.cs
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.dll
+C:\Users\mrrte\source\repos\SkyDock_Final\DelicaStar\obj\Debug\netcoreapp2.0\SkyDock.pdb

@@ -1,0 +1,44 @@
+﻿@model List<SkyDock.Models.Flight>
+@{
+	ViewData["Title"] = "Open Flights";
+}
+<body>
+	<div class="panel-body">
+		<h2>
+			Flights Requested and Unclaimed. <span class="badge bg-info">
+				@Model.Count(f => f.FlightContractor.Contractor_Organization == "No Contractor Accepted")
+			</span>
+		</h2>
+		<a asp-action="ListFlights" class="btn btn-primary">Switch to Claimed Flights</a>
+		<table class="table table-sm table-bordered" style="table-layout: fixed; width: 100%;">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Details</th>
+					<th>Charter</th>
+					<th>Contractor</th>
+					@if (User != null && (User.IsInRole("control") || User.IsInRole("Admins")))
+					{
+						<th></th>}
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var f in Model)
+				{
+					@if (f.FlightContractor.Contractor_Organization == "No Contractor Accepted")
+					{
+						<tr>
+							<td>@f.Flight_Title</td>
+							<td>@f.Flight_Details</td>
+							<td>@f.FlightCharter.Charter_Organization</td>
+							<td>@f.FlightContractor.Contractor_Organization</td>
+							@if (User != null && (User.IsInRole("control") || User.IsInRole("Admins")))
+							{
+								<td><a asp-action="EditFlight" asp-route-id="@f.FlightID" class="btn btn-primary">Add Contractor</a></td>}
+						</tr>
+					}
+				}
+			</tbody>
+		</table>
+	</div>
+</body>

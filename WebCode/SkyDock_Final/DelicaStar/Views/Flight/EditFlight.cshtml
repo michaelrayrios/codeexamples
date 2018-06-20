@@ -1,0 +1,70 @@
+﻿@using SkyDock.Models
+@model SkyDock.Models.Flight
+@{
+	ViewData["Title"] = "Edit Flight";
+}
+<body>
+	<div>
+		<br />
+		<br />
+		<div class="panel-heading text-center"><h4>Edit Flight Contractor Information</h4></div>
+		<div class="panel-body">
+			<form class="p-a-1" method="post">
+				<div>
+					<label asp-for="Flight_Purpose">Purpose:</label><br />
+					<input class="form-control" readonly asp-for="@Model.Flight_Purpose" />
+				</div>
+				<div>
+					<label asp-for="Flight_Origin">Origin:</label><br />
+					<input class="form-control" readonly asp-for="@Model.Flight_Origin" />
+				</div>
+				<div>
+					<label asp-for="Flight_Destination">Destination:</label><br />
+					<input class="form-control" readonly asp-for="@Model.Flight_Destination" />
+				</div>
+				<div>
+					<label asp-for="Flight_Details">Details:</label><br />
+					<input class="form-control" readonly asp-for="@Model.Flight_Details" />
+				</div>
+				<div>
+					<input class="form-control" type="hidden" asp-for="@Model.FlightCharter.Charter_Name_First" />
+				</div>
+				<div>
+					<input class="form-control" type="hidden" asp-for="@Model.FlightCharter.Charter_Name_Last" />
+				</div>
+				<div>
+					<input class="form-control" type="hidden" asp-for="@Model.FlightCharter.Charter_Organization" />
+				</div>
+				<div>
+					<input class="form-control" type="hidden" asp-for="@Model.FlightCharter.Charter_Details" />
+				</div>
+				<div>
+					<label asp-for="FlightContractor.Contractor_Name_First">Contractor First Name:</label><br />
+					<input class="form-control" type=text asp-for="@Model.FlightContractor.Contractor_Name_First" runat="server" onclick="this.value='';"/>
+				</div>
+				<div>
+					<label asp-for="FlightContractor.Contractor_Name_Last">Contractor Last Name:</label><br />
+					<input class="form-control" type=text asp-for="@Model.FlightContractor.Contractor_Name_Last"runat="server" onclick="this.value='';"/>
+				</div>
+				<div>
+					<label asp-for="FlightContractor.Contractor_Organization">Contractor Organization:</label><br />
+					<input class="form-control" type=text asp-for="@Model.FlightContractor.Contractor_Organization"runat="server" onclick="this.value='';"/>
+				</div>
+				<div>
+					<label asp-for="FlightContractor.Contractor_Details">Contractor Details:</label><br />
+					<input class="form-control" type=text asp-for="@Model.FlightContractor.Contractor_Details"runat="server" onclick="this.value='';"/>
+				</div>
+				<input type="hidden" asp-for="@Model.FlightID" />
+				<input type="hidden" asp-for="@Model.FlightCharter.CharterID" />
+				<input type="hidden" asp-for="@Model.FlightContractor.ContractorID" />
+
+
+				<p>
+					<input type="submit" value="Enter" class="btn btn-success" />
+					<a asp-action="Flights">Cancel</a>
+				</p>
+			</form>
+		</div>
+	</div>
+</body>
+

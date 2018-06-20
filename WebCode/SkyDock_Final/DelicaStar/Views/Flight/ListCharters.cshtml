@@ -1,0 +1,36 @@
+﻿@model List<SkyDock.Models.Charter>
+@{
+	ViewData["Title"] = "Charters";
+}
+<body>
+	<div class="panel-body">
+		<h2>
+			Charters registered<span class="badge bg-info">
+				@Model.Count()
+			</span>
+		</h2>
+		<form asp-controller="Flight" asp-action="ListCharters">
+			<p>
+				Organization: <input type="text" name="SearchString">
+				<input type="submit" class="btn btn-primary" value="Filter" />
+			</p>
+		</form>
+		<table class="table table-sm table-bordered" style="table-layout: fixed; width: 100%;">
+			<thead>
+				<tr>
+					<th>Description</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var Ct in Model)
+				{
+					<tr>
+						<td>@Ct.Charter_Description</td>
+						<td>@Ct.Charter_Details</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</body>

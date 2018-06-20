@@ -1,0 +1,38 @@
+﻿@model List<SkyDock.Models.Flight>
+@{
+	ViewData["Title"] = "Flights";
+}
+<body>
+	<div class="panel-body">
+		<h2>
+			Flights Requested and Claimed <span class="badge bg-info">
+				@Model.Count(f => f.FlightContractor.Contractor_Organization != "No Contractor Accepted")
+			</span>
+		</h2>
+		<a asp-action="ListOpenFlights" class="btn btn-primary">Switch to Open Flights</a>
+		<table class="table table-sm table-bordered" style="table-layout: fixed; width: 100%;">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Details</th>
+					<th>Charter</th>
+					<th>Contractor</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var f in Model)
+				{
+					@if (f.FlightContractor.Contractor_Organization != "No Contractor Accepted")
+					{
+						<tr>
+							<td>@f.Flight_Title</td>
+							<td>@f.Flight_Details</td>
+							<td>@f.FlightCharter.Charter_Organization</td>
+							<td>@f.FlightContractor.Contractor_Organization</td>
+						</tr>
+					}
+				}
+			</tbody>
+		</table>
+	</div>
+</body>

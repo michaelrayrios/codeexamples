@@ -1,0 +1,39 @@
+﻿@model List<SkyDock.Models.Contractor>
+@{
+	ViewData["Title"] = "Contractors";
+}
+<body>
+	<div class="panel-body">
+		<h2>
+			Contractors utilized <span class="badge bg-info">
+				@Model.Count(C => C.Contractor_Organization != "No Contractor Accepted")
+			</span>
+		</h2>
+		<form asp-controller="Flight" asp-action="ListContractors">
+			<p>
+				Organization: <input type="text" name="SearchString">
+				<input type="submit" class="btn btn-primary" value="Filter" />
+			</p>
+		</form>
+		<table class="table table-sm table-bordered" style="table-layout: fixed; width: 100%;">
+			<thead>
+				<tr>
+					<th>Description</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var C in Model)
+				{
+					@if (C.Contractor_Organization != "No Contractor Accepted")
+					{
+						<tr>
+							<td>@C.Contractor_Description</td>
+							<td>@C.Contractor_Details</td>
+						</tr>
+					}
+				}
+			</tbody>
+		</table>
+	</div>
+</body>

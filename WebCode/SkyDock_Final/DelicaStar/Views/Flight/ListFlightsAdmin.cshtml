@@ -1,0 +1,34 @@
+﻿@model List<SkyDock.Models.Flight>
+@{
+	ViewData["Title"] = "Flights (Admin)";
+}
+<body>
+	<div class="panel-body">
+		<h2>All Flights <span class="badge bg-info">@Model.Count</span></h2>
+		<table class="table table-sm table-bordered" style="table-layout: fixed; width: 100%;">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Details</th>
+					<th>Charter</th>
+					<th>Contractor</th>
+					<th>Edit</th>
+					<th>Delete</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var f in Model)
+				{
+					<tr>
+						<td>@f.Flight_Title</td>
+						<td>@f.Flight_Details</td>
+						<td>@f.FlightCharter.Charter_Organization</td>
+						<td>@f.FlightContractor.Contractor_Organization</td>
+						<td><a asp-action="EditFlight" asp-route-id="@f.FlightID" class="btn btn-primary">Add/Edit Contractor</a></td>
+						<td><a asp-action="Delete" asp-route-id="@f.FlightID" class="btn btn-danger">Delete</a></td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</body>

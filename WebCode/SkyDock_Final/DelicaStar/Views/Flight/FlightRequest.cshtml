@@ -1,0 +1,59 @@
+﻿@model SkyDock.Models.Flight
+@{
+	ViewData["Title"] = "Flight Request";
+}
+<!DOCTYPE html>
+<html>
+<body>
+	<div>
+		<br/>
+		<br/>
+		<div class="panel-heading text-center"><h4>Request a Flight</h4></div>
+		<div class="panel-body">
+			<form class="p-a-1" asp-action="FlightRequest" method="post">
+				<div asp-validation-summary="All"></div>
+				<div class="form-group">
+					<label asp-for="Flight_Purpose">Purpose of Flight:</label>
+					<input class="form-control" asp-for="Flight_Purpose" />
+				</div>
+				<div class="form-group">
+					<label asp-for="Flight_Origin">Origin:</label>
+					<input class="form-control" asp-for="Flight_Origin" />
+				</div>
+				<div class="form-group">
+					<label asp-for="Flight_Destination">Destination:</label>
+					<input class="form-control" asp-for="Flight_Destination" />
+				</div>
+				<div class="form-group">
+					<label asp-for="Flight_Details">Required Amenities:</label>
+					<input class="form-control" asp-for="Flight_Details" />
+				</div>
+				<div class="form-group">
+					<label asp-for="FlightCharter.Charter_Name_First">Charter First Name:</label>
+					<input class="form-control" asp-for="FlightCharter.Charter_Name_First" />
+				</div>
+				<div class="form-group">
+					<label asp-for="FlightCharter.Charter_Name_Last">Charter Last Name:</label>
+					<input class="form-control" asp-for="FlightCharter.Charter_Name_Last" />
+				</div>
+				<div class="form-group">
+					<label asp-for="FlightCharter.Charter_Organization">Charter Organization:</label>
+					<input class="form-control" asp-for="FlightCharter.Charter_Organization" />
+				</div>
+				<div class="form-group">
+					<label asp-for="FlightCharter.Charter_Details">Charter Details:</label>
+					<input class="form-control" asp-for="FlightCharter.Charter_Details" />
+				</div>
+				<input type="hidden" asp-for="FlightContractor.Contractor_Name_First" value="No Contractor Accepted" />
+				<input type="hidden" asp-for="FlightContractor.Contractor_Name_Last" value="No Contractor Accepted" />
+				<input type="hidden" asp-for="FlightContractor.Contractor_Organization" value="No Contractor Accepted" />
+				<input type="hidden" asp-for="FlightContractor.Contractor_Details" value="No Contractor Accepted" />
+				<div class="text-center">
+					<button class="btn btn-primary" type="submit">
+						Submit Request
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
